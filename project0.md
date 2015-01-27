@@ -1,35 +1,35 @@
 #Project 0-Data management platform comparison
 #### He Jiang(hj58)
 
-Mongo DB
+Mongo DB  
 Reference: http://halls-of-valhalla.org/beta/articles/the-pros-and-cons-of-mongodb,45/  
-Pros: Easy to transfer across Database by storing in JSON format, easy to usee
-Cons: Because it is not relational database, it is hard to do join for different tables.
+Pros: Easy to transfer across Database by storing in JSON format, easy to use  
+Cons: Because it is not relational database, it is hard to do join for different tables.  
 
-1010data
-Reference: https://www.1010data.com/products https://www.trustradius.com/reviews/1010data-2014-12-12-00-27-32 
-Pros: Cloud-based, good for data sharing, big amount of data management and analysis.
-Cons: Too complex when the data is relatively small and simple.
+1010data  
+Reference: https://www.1010data.com/products https://www.trustradius.com/reviews/1010data-2014-12-12-00-27-32   
+Pros: Cloud-based, good for data sharing, big amount of data management and analysis.  
+Cons: Too complex when the data is relatively small and simple.  
 
-Accumulo
-Reference: https://accumulo.apache.org/notable_features.html http://en.wikipedia.org/wiki/Apache_Accumulo 
-Similar with HBase
-Pros: server-side programming mechanisms. Cell-level access labels. Sorted data. Based on BigTable technology from Google. Fault-tolerant operations. Timestamps never go backwards.
-Cons: complexity of using. 
+Accumulo  
+Reference: https://accumulo.apache.org/notable_features.html http://en.wikipedia.org/wiki/Apache_Accumulo   
+Similar with HBase  
+Pros: server-side programming mechanisms. Cell-level access labels. Sorted data. Based on BigTable technology from Google. Fault-tolerant operations. Timestamps never go backwards.  
+Cons: complexity of using.   
 
-HBase:
-Reference: http://sqrrl.com/product/nosql/ http://apache-accumulo.1065345.n5.nabble.com/How-does-Accumulo-compare-to-HBase-td10464.html http://hbase.apache.org/ http://www.cyanny.com/2014/03/13/hbase-architecture-analysis-part-3-pros-cons/ 
-Pros: cell-level security and access labels. Similar with Accumulo, Based on BigTable technology from Google. Wide column store, scalability and flexibility. Prevent data lose. Good integration with other projects. Random, realtime read/write access. Failover between region servers. Good for sparse table. 
-Cons: complexity, not good for large clusters. As master slave architecture design, it has single point of failure problem. Index only on key, sorted by key. No Joins.
+HBase:  
+Reference: http://sqrrl.com/product/nosql/   http://apache-accumulo.1065345.n5.nabble.com/How-does-Accumulo-compare-to-HBase-td10464.html http://hbase.apache.org/ http://www.cyanny.com/2014/03/13/hbase-architecture-analysis-part-3-pros-cons/   
+Pros: cell-level security and access labels. Similar with Accumulo, Based on BigTable technology from Google. Wide column store, scalability and flexibility. Prevent data lose. Good integration with other projects. Random, realtime read/write access. Failover between region servers. Good for sparse table.   
+Cons: complexity, not good for large clusters. As master slave architecture design, it has single point of failure problem. Index only on key, sorted by key. No Joins.  
 
-Cassandra
-Reference: http://sqrrl.com/product/nosql/ http://cassandra.apache.org/ http://en.wikipedia.org/wiki/Apache_Cassandra http://www.ibm.com/developerworks/library/os-apache-cassandra/ 
-Pros: NoSQL, Wide column store, linear scalability and flexibility, fault-tolerance on hardware and cloud. Column indexes. As it is decentralized, No single point of failure. Focus on prevent losing data. Elastic. Handle large amounts of data across many commodity servers.
-Cons: complexity, Not good for query, no ACID transactions and Joins. No foreign keys, immutable and unique keys. Failed operations might change the data.
+Cassandra  
+Reference: http://sqrrl.com/product/nosql/ http://cassandra.apache.org/ http://en.wikipedia.org/wiki/Apache_Cassandra http://www.ibm.com/developerworks/library/os-apache-cassandra/   
+Pros: NoSQL, Wide column store, linear scalability and flexibility, fault-tolerance on hardware and cloud. Column indexes. As it is decentralized, No single point of failure. Focus on prevent losing data. Elastic. Handle large amounts of data across many commodity servers.  
+Cons: complexity, Not good for query, no ACID transactions and Joins. No foreign keys, immutable and unique keys. Failed operations might change the data.  
 
-Redis:
-Reference: http://sqrrl.com/product/nosql/ http://redis.io/topics/introduction http://www.slideshare.net/TitPetric/redislessons-learned http://mvcbloggers.blogspot.com/2013/05/redis-vs-memcached.html 
-Pros: Key-value cache and store, good for simple data. Scalability. Atomic operatios. In-memory dataset. Support master-slave asynchronous replication. Automatic failover. Easy to install, works in most POSIX without external dependencies. Keys could expires. LRU eviction of keys. Scaling reads and writes.
+Redis  
+Reference: http://sqrrl.com/product/nosql/ http://redis.io/topics/introduction http://www.slideshare.net/TitPetric/redislessons-learned http://mvcbloggers.blogspot.com/2013/05/redis-vs-memcached.html  
+Pros: Key-value cache and store, good for simple data. Scalability. Atomic operatios. In-memory dataset. Support master-slave asynchronous replication. Automatic failover. Easy to install, works in most POSIX without external dependencies. Keys could expires. LRU eviction of keys. Scaling reads and writes.  
 Cons: Querying is simple, lack advanced features, no key segmentation and grouping. Persistence and data integrity
 
 Memcached
