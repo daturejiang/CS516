@@ -1,3 +1,6 @@
+#Project 0-Data management platform comparison
+#### He Jiang(hj58)
+
 Mongo DB
 Reference: http://halls-of-valhalla.org/beta/articles/the-pros-and-cons-of-mongodb,45/
 Pros: Easy to transfer across Database by storing in JSON format, easy to usee
